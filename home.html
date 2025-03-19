@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Agende sua Consulta</h2>
+        <label for="medico">Escolha um médico:</label>
+        <select id="medico">
+            <option>Dr. Kaio Silva</option>
+            <option>Dra. Maria Oliveira</option>
+            <option>Dr. Carlos Santos</option>
+            <option>Dra. Mariana Santos</option>
+            <option>Dr. Diego Domingues</option>
+            <option>Dra. Fabiana Silva</option>
+        </select>
+        <label for="data">Escolha a data:</label>
+        <input type="date" id="data">
+        <label for="horario">Escolha o horário:</label>
+        <input type="time" id="horario">
+        <button onclick="agendarConsulta()">Agendar Consulta</button>
+        <a href="lista.html">Ver lista de médicos</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

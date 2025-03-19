@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="form-header">
+            <div class="titles">
+                <div class="title-login">Login</div>
+            </div>
+        </div>
+        <form action="#" class="login-form" autocomplete="off">
+            <div class="input-box">
+                <input type="text" id="login" class="input-field" id="log-usuario" required>
+                <label for="log-usuario" class="label">Usuário</label>
+                <i class='bx bx-user icon'></i>
+            </div>
+            <div class="input-box">
+                <input type="password" id="senha" class="input-field" id="log-pass" required>
+                <label for="log-pass"  class="label">Senha</label>
+                <i class='bx bx-lock icon'></i>
+            </div>
+            <div class="form-cols">
+                <div class="col-1"></div>
+                <div class="col-2">
+                    <a href="#">Esqueceu a senha?</a>
+                </div>
+            </div>
+            <div class="input-box">
+                <button class="btn-submit" onclick="logar(); return false">Entrar<i class='bx bx-log-in'></i></button>
+            </div>
+            <div class="switch-form">
+                <span>Você não tem uma conta?</span><a href="cadastro.html">Cadastrar</a>
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
